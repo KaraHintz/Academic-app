@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Academic App</title>
+  </head>
+  <body>
+    <h1>Academic App</h1>
+
+    <h2>Mahasiswa</h2>
+    <ul>
+      <li>ID: {{ mahasiswa.id }}</li>
+      <li>Username: {{ mahasiswa.username }}</li>
+      <li>Email: {{ mahasiswa.email }}</li>
+      <li>NIM: {{ mahasiswa.nim }}</li>
+      <li>Major: {{ mahasiswa.major }}</li>
+    </ul>
+
+    <h2>Dosen</h2>
+    <ul>
+      <li>ID: {{ dosen.id }}</li>
+      <li>Username: {{ dosen.username }}</li>
+      <li>Email: {{ dosen.email }}</li>
+      <li>NIP: {{ dosen.nip }}</li>
+      <li>Department: {{ dosen.department }}</li>
+    </ul>
+
+    <h2>Matakuliah</h2>
+    <ul>
+      <li>Kode: {{ matakuliah.kode }}</li>
+      <li>Nama: {{ matakuliah.nama }}</li>
+      <li>SKS: {{ matakuliah.sks }}</li>
+    </ul>
+
+  </body>
+</html>
